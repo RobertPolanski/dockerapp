@@ -25,3 +25,5 @@ jobs:
             docker tag dockerapp_dockerapp robertpolanski/dockerapp:latest
             docker push robertpolanski/dockerapp:$CIRCLE_SHA1
             docker push robertpolanski/dockerapp:latest
+
+
